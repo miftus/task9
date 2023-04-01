@@ -1,0 +1,35 @@
+{
+  "namespace": "com.practice.bitcoin",
+  "type": "record",
+  "name": "BitcoinPrice",
+  "fields": [
+    {
+      "name": "Date",
+      "type" : "string"
+    },
+    {
+      "name": "Open",
+      "type": "string"
+    },
+    {
+      "name": "High",
+      "type": "string"
+    },
+    {
+      "name": "Low",
+      "type": "string"
+    },
+    {
+      "name": "Close",
+      "type": "string"
+    },
+    {
+      "name": "Volume",
+      "type": "string"
+    },
+    {
+      "name": "MarketCap",
+      "type": "string" 
+    }
+  ]
+}
